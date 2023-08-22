@@ -1,0 +1,14 @@
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\bin\Debug\net7.0\GETrequests.exe
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\bin\Debug\net7.0\GETrequests.deps.json
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\bin\Debug\net7.0\GETrequests.runtimeconfig.json
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\bin\Debug\net7.0\GETrequests.dll
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\bin\Debug\net7.0\GETrequests.pdb
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\obj\Debug\net7.0\GETrequests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\obj\Debug\net7.0\GETrequests.AssemblyInfoInputs.cache
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\obj\Debug\net7.0\GETrequests.AssemblyInfo.cs
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\obj\Debug\net7.0\GETrequests.csproj.CoreCompileInputs.cache
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\obj\Debug\net7.0\GETrequests.dll
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\obj\Debug\net7.0\refint\GETrequests.dll
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\obj\Debug\net7.0\GETrequests.pdb
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\obj\Debug\net7.0\GETrequests.genruntimeconfig.cache
+D:\Documents\Tasks\HTTPrequestsDSP\GETrequests\obj\Debug\net7.0\ref\GETrequests.dll
