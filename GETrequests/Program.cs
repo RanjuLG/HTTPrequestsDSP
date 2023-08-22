@@ -19,8 +19,14 @@ class Program
 
             var result = await client.GetAsync(url);
             var content = await client.GetStringAsync(url);
-            Console.WriteLine(result.StatusCode);
-           Console.WriteLine(content);
+
+            Console.WriteLine("Status Code: " + (int)result.StatusCode);
+            Console.WriteLine("Response Message: "+result.StatusCode);
+            Console.WriteLine("Complete Header Response: " + result);
+            Console.WriteLine("Content: " + content);
+            
+
+            Console.ReadLine();
         }
         catch (Exception ex) { 
         
