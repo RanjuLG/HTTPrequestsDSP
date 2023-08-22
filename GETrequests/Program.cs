@@ -9,15 +9,16 @@ class Program
     static async Task Main(string[] args)
 
     {
+
+        var url = "http://10.20.30.198:8013/api/status/";
+
+        using var client = new HttpClient();
+
+        var result = await client.GetAsync(url);
+
         try
         {
-
-
-            var url = "http://10.20.30.198:8013/api/status/";
-
-            using var client = new HttpClient();
-
-            var result = await client.GetAsync(url);
+        
             var content = await client.GetStringAsync(url);
 
             Console.WriteLine("Status Code: " + (int)result.StatusCode);
@@ -26,11 +27,13 @@ class Program
             Console.WriteLine("Content: " + content);
             
 
-            Console.ReadLine();
+            Console.Read();
         }
-        catch (Exception ex) { 
-        
-            Console.WriteLine("The error: "+ ex.Message);        
+        catch (Exception) {
+
+            Console.WriteLine("Status Code: " + (int)result.StatusCode);
+            Console.WriteLine("Response Message: " + result.StatusCode);
+            Console.WriteLine("Complete Header Response: " + result);
         }
 
 
