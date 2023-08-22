@@ -13,7 +13,7 @@ class Program
         {
 
 
-            var url = "http://10.20.30.198:8013/api/statuss/";
+            var url = "http://10.20.30.198:8013/api/status/";
 
             using var client = new HttpClient();
 
